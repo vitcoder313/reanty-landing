@@ -1440,7 +1440,7 @@ a { color: inherit; text-decoration: none; }
    Tablet  (<= 1024px)
    ========================================================== */
 @media (max-width: 1024px) {
-  .container { padding: 0 32px; }
+  .container { padding: 14px 32px; }
 
   /* nav -> burger menu */
   .navbar__inner { height: 72px; }
@@ -1597,7 +1597,7 @@ a { color: inherit; text-decoration: none; }
    ========================================================== */
 @media (max-width: 768px) {
   body { font-size: 16px; }
-  .container { padding: 0 20px; }
+  .container { padding: 10px 20px; }
 
   /* top bar: hide address, keep mail + social */
   .topbar { height: auto; padding: 10px 0; font-size: 12px; }
@@ -1784,4 +1784,5 @@ a { color: inherit; text-decoration: none; }
     height: 56px;
   }
   .thumbs__item--1 { height: 64px; }
+  .rating-box { font-size: 8px; }
 }
